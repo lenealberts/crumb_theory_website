@@ -1,0 +1,26 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://example.com
+Description: Child theme for Astra
+Author: Lene Lottering
+Version: 1.0.0
+Template: astra
+Text Domain: astra-child
+*/
+html {
+    background-color: hotpink !important;
+}
+
+body {
+    background-color: yellow !important;
+}
+
+.site {
+    background-color: lightblue !important;
+    border: 20px solid red !important;
+}
+
+* {
+    outline: 1px solid lime;
+    
+}
