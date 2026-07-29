@@ -1,0 +1,39 @@
+:root {
+    /* BRAND COLORS */
+  --color-background: #F8F2EA;
+  --color-primary: #A46AD7;
+  --color-primary-dark: #7B4FB2;
+  --color-button-primary: #F268A8;
+  --color-button-primary-hover: #E94B97;
+  --color-text: #534265;
+  --color-accent-light-blue: #5DB4F4;
+  --color-accent-yellow: #FFD66B;
+  --color-cookie: #E7C38D;
+  --color-cookie-dark: #B67845;
+  --color-surface: #FFF8F1;
+  --color-border: #5B486C;
+
+  /*TYPOGRAPHY */
+  --font-heading: 'Lazy Dog', cursive;
+  --font-body: 'Quicksand', sans-serif;
+  --font-alt: 'Nunito', sans-serif;
+
+  /*SPACING, RADIUS, SHADOWS */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 6px 12px rgba(83, 66, 101, 0.15);
+  --shadow-button: 0 4px 0 var(--color-border);
+
+  --space-xs: .5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+
+  /*TRANSITIONS */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

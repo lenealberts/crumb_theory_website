@@ -7,20 +7,9 @@ Version: 1.0.0
 Template: astra
 Text Domain: astra-child
 */
-html {
-    background-color: hotpink !important;
-}
-
-body {
-    background-color: yellow !important;
-}
+@import url("variables.css");
 
 .site {
-    background-color: lightblue !important;
-    border: 20px solid red !important;
-}
-
-* {
-    outline: 1px solid lime;
-    
+    background-color: var(--color-background);
+    border: var(--color-border);
 }
